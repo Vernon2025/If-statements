@@ -25,7 +25,12 @@ public class HelloWorld
         else {
             System.out.println("FAILURE");
         }
-        
+        if (d==-8 && a==4) {
+            System.out.println("SUCCESS");
+        }
+        else {
+            System.out.println("FALILURE");
+        }
         System.out.println("Hello World!");
     }
     
